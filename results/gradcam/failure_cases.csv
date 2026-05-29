@@ -1,0 +1,5 @@
+idx,pred,cam_peak,is_fn,misaligned
+0,0.33681821823120117,186,True,True
+1,0.577378511428833,34,False,True
+2,0.3310498297214508,143,True,True
+5,0.5222088694572449,2,False,True

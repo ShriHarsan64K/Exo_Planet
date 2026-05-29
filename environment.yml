@@ -1,0 +1,22 @@
+name: exo_planet
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - jupyterlab
+  - pip:
+      - tensorflow[and-cuda]==2.15.1
+      - lightkurve
+      - tf-keras-vis
+      - astropy
+      - astroquery
+      - tqdm
+      - requests
+      - joblib
