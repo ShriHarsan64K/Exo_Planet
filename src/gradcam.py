@@ -286,7 +286,7 @@ def plot_gradcam_snr_comparison(
     plt.suptitle(
         f"Grad-CAM Across SNR Levels — Curve {curve_idx}  "
         f"(True: {LABEL_NAMES.get(y_true,'?')})\n"
-        f"SARIP 2026 | Shri Harsan M | SRM IST | IIT Kanpur",
+        f"",
         fontsize=11, y=1.02
     )
     plt.tight_layout()
@@ -530,7 +530,7 @@ def run_gradcam_analysis():
 
         plt.suptitle(
             "Grad-CAM Failure Cases — CONFIRMED Planets Misclassified or Misaligned\n"
-            "SARIP 2026 | Shri Harsan M",
+            "Exoplanet Transit Detection",
             fontsize=11, y=1.02
         )
         plt.tight_layout()

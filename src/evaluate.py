@@ -183,8 +183,8 @@ def plot_degradation_curves(df: pd.DataFrame, models_to_plot: list = None):
                 color='gray', alpha=0.7)
 
     plt.suptitle(
-        "Performance Degradation vs SNR Level — SARIP 2026\n"
-        "Shri Harsan M | SRM IST | IIT Kanpur",
+        "Performance Degradation vs SNR Level\n"
+        "",
         fontsize=12, y=1.02
     )
     plt.tight_layout()
@@ -223,7 +223,7 @@ def plot_heatmap(df: pd.DataFrame, metric: str = "f1"):
         annot_kws={"size": 10}
     )
     ax.set_title(f"{metric.upper()} — All Models × All SNR Levels\n"
-                 f"SARIP 2026 | Shri Harsan M",
+                 f"Exoplanet Transit Detection",
                  fontsize=12, fontweight='bold')
     ax.set_xlabel("SNR Level", fontsize=10)
     ax.set_ylabel("Model", fontsize=10)
@@ -267,7 +267,7 @@ def plot_model_comparison(df: pd.DataFrame, snr_name: str = "snr_high"):
     ax.set_ylim(0, 1.15)
     ax.set_title(f"Model Comparison at SNR = "
                  f"{SNR_LABELS.get(snr_name, snr_name).replace(chr(10), ' ')}\n"
-                 f"SARIP 2026 | Shri Harsan M",
+                 f"Exoplanet Transit Detection",
                  fontweight='bold')
     ax.legend()
     ax.grid(True, axis='y', alpha=0.3)
